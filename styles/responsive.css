@@ -1,6 +1,7 @@
 /* banner section media query for small devices */
 
 @media screen and (max-width:576px) {
+    /* banner section */
     .banner-container{
         flex-direction: column;
     }
@@ -18,6 +19,13 @@
      }
      .card350{
         right: 70%;
+     }
+     /* habit section */
+     .habits-images{
+        grid-template-columns: repeat(1,1fr);
+     }
+     .habit-image{
+        margin-top: 40px;
      }
 }
 
@@ -41,7 +49,16 @@
         border-radius: 20px;
         align-items: center;
     }
-     #hamburger-icon{
+    #hamburger-icon{
         display: none;
-     }
+    }
+
+     /* habits section */
+
+    .habits-images{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .habit-image{
+        margin-top: 40px;
+    }
 }
