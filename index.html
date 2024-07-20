@@ -11,7 +11,6 @@
 </head>
 <body>
     <header>
-
       <section class="max-width">
         <nav>
           <h1>Fitness</h1>
@@ -44,82 +43,104 @@
                   <small class="paragraph-color">Free Workout Videos</small>
               </div>
             </div>
-  
         </div>
       </section>
-      <!-- <nav class="max-width">
-        <h1>Fitness</h1>
-        <ul>
-          <li class="orange-menu"><a href=""></a>Home</li>
-          <li><a href=""></a>Service</li>
-          <li><a href=""></a>Contact</li>
-          <li><a href=""></a>About</li>
-        </ul>
-        <span id="hamburger-icon"><i class="fa-solid fa-bars"></i></span>
-      </nav>
-      <div class="banner-container max-width">
-          <div class="banner-description">
-              <h1>Get body in <br> <span>shape</span> & stay <br> healthy</h1>
-              <p class="paragraph-color">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
-              <button class="primary-btn">Join Club Now!</button>
-              <button id="banner-btn" class="primary-btn">Download App</button>
-          </div>
-          <div class="banner-image">
-            <img src="images/banner-img.png" alt="">
-            <div class="card350">
-                <div class="circle"></div>
-                <div>
-                  <h4>350+</h4>
-                 <small class="paragraph-color">Video Tutorial</small>
-                </div>
-            </div>
-            <div class="card500">
-                <h4>500+</h4>
-                <small class="paragraph-color">Free Workout Videos</small>
-            </div>
-          </div>
-
-      </div> -->
     </header>
 
     <main>
-        <!-- change your habit section starts here -->
+        <!---------------------- change your habit section starts here-------------- -->
       <section class="main-container max-width">
         <section class="habits-container">
           <div class="habits-description text-center">
              <h1 class="section-title">Change Your Habits</h1>
              <p class="paragraph-color">We believe fitness should be accessible to everyone,everywhere,regardless of income or <br> access to a gym.</p>
           </div>
-          <div class="habits-images text-center">
+          <div class="habits-content text-center">
             <div>
               <img class="habit-image" src="images/movement.png" alt="">
               <h5>Movement</h5>
-              <p class="paragraph-color">We believe fitness should be <br>accessible to everyone.</p>
+              <p class="paragraph-color">To stay fit it is important to<br>make a movement towards fitness.</p>
             </div>
             <div>
               <img class="habit-image" src="images/time.png" alt="">
               <h5>Time</h5>
-              <p class="paragraph-color">We believe fitness should be <br>accessible to everyone.</p>
+              <p class="paragraph-color">Anyone should invest their valuable<br>time to stay fit and fine.</p>
             </div>
             <div>
               <img class="habit-image" src="images/practice.png" alt="">
               <h5>Practice</h5>
-              <p class="paragraph-color">We believe fitness should be <br>accessible to everyone.</p>
+              <p class="paragraph-color">Everyday practice can make a person<br>healthy and strong.</p>
             </div>
             <div>
               <img class="habit-image" src="images/weightloss.png" alt="">
               <h5>Weight loss</h5>
-              <p class="paragraph-color">We believe fitness should be <br>accessible to everyone.</p>
+              <p class="paragraph-color">Weight loss can be a key factor<br>towards the journey of being healthy.</p>
             </div>
           </div>
         </section>
-        <!-- change your habit section ends here -->
+        <!-- -------------------change your habit section ends here---------- -->
 
-        <!-- meet our team starts here -->
-        <section class="team-container">
+        <!--------------------- bmi section starts here -------------------->
+         <section class="bmi-container">
+          <div class="bmi-description text-center">
+            <h1 class="section-title">BMI Calculator</h1>
+            <p class="paragraph-color">BMI is a measure of body fat based on height and weight that applies to adult men and women.<br>View the BMI tables or use the tool below to compute yours.</p>
+          </div>
+              <div class="bmi-content">
+                <div class="bmi-chart">
+                  <h3>BMI Calculator Chart</h3>
+                  <table class="bmi-table">
+                    <tr>
+                      <th>BMI</th>
+                      <th>Weight Status</th>
+                    </tr>
+                    <tr>
+                      <td>Below 18.5</td>
+                      <td>Underweight</td>
+                    </tr>
+                    <tr>
+                      <td>25.0-29.9</td>
+                      <td>Healthy</td>
+                    </tr>
+                    <tr>
+                      <td>30.0 - and above</td>
+                      <td>Obese</td>
+                    </tr>
+                  </table>
+    
+                </div>
+                <div class="bmi-calculator">
+                   <h3>Calculate Your BMI</h3>
+                   <p class="paragraph-color">Enter your weight and height using standard or metric measures.
+                    Select the calculate button and your BMI will appear below. </p>
+                  <form>
+                    <input  type="text" name="" id="" placeholder="Height/Cm">
+                    <input type="text" name="" id="" placeholder="Weight/Kg">
+                    <input type="text" name="" id="" placeholder="Age">
+                    <select class="sex" name="sex" id="">
+                      <option value="Sex">Sex</option>
+                      <option value="male">Male</option>
+                      <option value="female">Female</option>
+                    </select>
+
+                    <select class="activity" name="activity" id="">
+                      <option value="select">Select an activity factor</option>
+                      <option value="Yoga">Yoga</option>
+                      <option value="race">Race</option>
+                      <option value="weightloss">Weight loss</option>
+                    </select>
+                    <button class="primary-btn">Calculate</button>
+                  </form>
+                </div>
+              </div>
+         </section>
+        <!---------------------- bmi section ends here----------------------- -->
+
+        <!---------------------- meet our team starts here---------------------- -->
+        <section class="team-container max-width">
           <div class="team-description text-center">
             <h1 class="section-title">Meet Our Team</h1>
-            <p class="paragraph-color">We believe fitness should be accessible to everyone,everywhere,regardless of income or <br> access to a gym.</p>
+            <p class="paragraph-color">We have the best trained professionals to help you out with your fitness journey. <br>They are expert in their field.</p>
           </div>
 
           <div class="members-container">
@@ -133,50 +154,50 @@
             <div class="member">
               <img src="images/trainer2.png" alt="">
               <div class="trainer">
-                <h4>Jerome Bell</h4>
+                <h4>Cameron William</h4>
               <small>trainer</small>
               </div>
             </div>
             <div class="member">
               <img src="images/trainer3.png" alt="">
               <div class="trainer">
-                <h4>Jerome Bell</h4>
+                <h4>Darrell Steward</h4>
               <small>trainer</small>
               </div>
             </div>
             <div class="member">
               <img src="images/trainer4.png" alt="">
               <div class="trainer">
-                <h4>Jerome Bell</h4>
+                <h4>Dianne Russell</h4>
               <small>trainer</small>
               </div>
             </div>
             <div class="member">
               <img src="images/trainer5.png" alt="">
               <div class="trainer">
-                <h4>Jerome Bell</h4>
+                <h4>Cody Fisher</h4>
               <small>trainer</small>
               </div>
             </div>
             <div class="member">
               <img src="images/trainer6.png" alt="">
               <div class="trainer">
-                <h4>Jerome Bell</h4>
+                <h4>Theresa Webb</h4>
               <small>trainer</small>
               </div>
             </div>
           </div>
-
         </section>
-          <!-- meet our team ends here -->
+          <!--------------------- meet our team ends here------------------------ -->
       </section>
     </main>
-      <!-- main section ends here -->
+      <!------------------------ main section ends here-------------------------- -->
+      <!-- ----------------------footer starts here------------------------------ -->
     <footer>
       <div class="footer-container max-width">
         <div class="footer-content">
           <h1>Fitness</h1>
-          <p class="paragraph-color">We believe fitness should be accessible to everyone,<br>everywhere,regardless of income or access to a gym.<br> With hundreds of professional workouts.</p>
+          <p class="paragraph-color">We believe in the power of fitness to change lives.<br>Our mission is to help you achieve your health and fitness goals<br>through expert guidance,personalized plans,and unwavering support.</p>
         </div>
         <div class="footer-content">
           <h2>Get Started</h2>
@@ -198,5 +219,6 @@
         <small class="paragraph-color">All right reserved @Fitness 2024</small>
       </div>
     </footer>
+    <!-- -------------------------footer ends-------------------------------------- -->
 </body>
 </html>

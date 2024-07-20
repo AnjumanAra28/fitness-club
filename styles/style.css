@@ -42,6 +42,13 @@ main{
     color: white;
 }
 
+.team-description p ,
+.bmi-description p ,
+.habits-description p,
+.bmi-calculator p{
+    margin: 10px 0;
+}
+
 /* shared style ends here */
 
 /* header section style starts here */
@@ -91,17 +98,14 @@ nav ul > li {
     gap: 2rem;
     margin-top: 2rem;
 }
-
 .banner-description{
     width: 45%;
 }
-
 .banner-description h1{
     font-weight: 900;
     font-size: 3.5rem;
     color: rgb(255, 255, 255);
 }
-
 .banner-description p{
     margin: 1.5rem 0;
 }
@@ -109,12 +113,10 @@ nav ul > li {
     background: transparent;
     border: 1px solid white;
 }
-
 .banner-image{
     width: 40%;
     position: relative;
 }
-
 .banner-image img{
     width: 80%;
     object-fit: cover;
@@ -160,12 +162,15 @@ nav ul > li {
 /* main section style starts here */
 /* change habits section style starts here */
 
-.habits-images{
+.habits-content{
     margin: 40px 0;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     justify-items: center;
     align-items: center;
+}
+.habits-content h5{
+   margin-bottom: 5px;
 }
 .habit-image{
     border-radius: 50%;
@@ -174,10 +179,71 @@ nav ul > li {
 }
 /* change habits section style ends here */
 
+/* bmi style starts here */
+
+.bmi-container{
+    margin: 60px;
+}
+.bmi-description{
+    background-color: black;
+}
+.bmi-content{
+    background-color: rgb(34,34,34); 
+    border-radius: 15px;
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bmi-chart{
+    width: 30%;
+}
+.bmi-calculator{
+    width: 50%;
+}
+form{
+    margin: 30px 0;
+}
+form input , select{
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    outline: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+}
+.sex{
+    width: 42%;
+    color: gray;
+}
+.activity{
+   width: 85%;
+   color: gray;
+}
+table{
+    margin-top: 30px;
+}
+th{
+    text-align: start;
+}
+table , th , td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+}
+th, td{
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+/* bmi style ends here */
+
 /* meet our team style starts here */
 .team-container{
    margin-top: 60px;
 }
+
 .members-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);

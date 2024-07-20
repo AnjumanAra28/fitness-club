@@ -2,7 +2,7 @@
 
 @media screen and (max-width:576px) {
     /* banner section */
-    .banner-container {
+    .banner-container , .bmi-content{
         flex-direction: column;
     }
     .banner-description ,.banner-image{
@@ -21,13 +21,28 @@
         right: 70%;
      }
      /* habit section */
-     .habits-images , 
+     .habits-content , 
      .members-container{
         grid-template-columns: repeat(1,1fr);
      }
      .habit-image{
         margin-top: 40px;
      }
+     /* bmi section */
+     .bmi-container{
+        width: 100%;
+        margin: 0 auto;
+     }
+     .bmi-chart , .bmi-calculator{
+        width: 100%;
+     }
+     .bmi-calculator{
+        margin-top: 30px;
+     }
+     .sex , .activity{
+        width: 73%;
+     }
+     /* footer section */
      .footer-container{
         flex-direction: column;
         align-items: start;
@@ -36,6 +51,7 @@
 
 /* medium screen responsive */
 @media screen and (min-width:576px) and (max-width:992px) {
+    /* header style */
     .banner-container{
         flex-direction: column;
     }
@@ -60,7 +76,7 @@
 
      /* habits section */
 
-    .habits-images , .members-container{
+    .habits-content , .members-container{
         grid-template-columns: repeat(2,1fr);
     }
     .habit-image{
@@ -71,6 +87,24 @@
     .members-container{
         grid-template-columns: repeat(2,1fr);
     }
+    /* bmi section */
+    .bmi-content{
+        flex-direction: column;
+    }
+    .bmi-calculator,.bmi-chart{
+        width: 100%;
+    }
+    .bmi-calculator{
+        margin-top: 30px;
+    }
+    .sex{
+        width: 48%;
+    }
+    .activity {
+        width: 97%;
+    }
+
+    /* footer section */
     .footer-container{
         flex-direction: column;
         align-items:start;
