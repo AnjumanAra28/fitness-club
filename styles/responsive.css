@@ -39,8 +39,14 @@
      .bmi-calculator{
         margin-top: 30px;
      }
-     .sex , .activity{
-        width: 73%;
+     form input {
+        width: 45%;
+     }
+     .sex{
+        width: 45%;
+     }
+     .activity{
+        width: 91%;
      }
      /* footer section */
      .footer-container{
