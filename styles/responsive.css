@@ -42,7 +42,7 @@
         justify-content: center;
         justify-items: center;
      }
-     /* .run-description,
+     .run-description,
      .run-image{
          width: 90%;
      }
@@ -51,7 +51,7 @@
     }
     .run-image img{
         width: 90%;
-    } */
+    }
      /* bmi section */
      .bmi-container{
         width: 100%;
