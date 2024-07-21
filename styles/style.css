@@ -40,12 +40,14 @@ main{
     padding: 14px 32px;
     border: none;
     color: white;
+    margin-top: 10px;
 }
 
 .team-description p ,
 .bmi-description p ,
 .habits-description p,
-.bmi-calculator p{
+.bmi-calculator p,
+.run-description p{
     margin: 10px 0;
 }
 
@@ -178,6 +180,32 @@ nav ul > li {
     margin-bottom: 10px;
 }
 /* change habits section style ends here */
+
+/* run an extra mile style starts here */
+.run-container{
+    background-color: rgb(34,34,34); 
+    border-radius: 15px;
+}
+.run-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.run-description{
+    width: 45%;
+}
+.run-image{
+    width: 40%;
+}
+.run-image img{
+    border-radius: 15px;
+    width: 100%;
+    object-fit: cover;
+}
+/* run an extra mile style ends here */
+
+/*  */
 
 /* bmi style starts here */
 

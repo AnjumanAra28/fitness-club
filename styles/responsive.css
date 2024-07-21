@@ -2,12 +2,15 @@
 
 @media screen and (max-width:576px) {
     /* banner section */
-    .banner-container , .bmi-content{
+    .banner-container , 
+    .bmi-content {
         flex-direction: column;
     }
-    .banner-description ,.banner-image{
+    .banner-description,
+    .banner-image{
         width: 95%;
     }
+   
     .banner-image img{
         width: 100%;
     }
@@ -28,25 +31,39 @@
      .habit-image{
         margin-top: 40px;
      }
+     /* run section */
+     .run-container{
+        margin-bottom: 40px;
+     }
+
+     .run-content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+     }
+     /* .run-description,
+     .run-image{
+         width: 90%;
+     }
+     .run-image{
+        margin-top: 30px;
+    }
+    .run-image img{
+        width: 90%;
+    } */
      /* bmi section */
      .bmi-container{
         width: 100%;
         margin: 0 auto;
      }
-     .bmi-chart , .bmi-calculator{
+     .bmi-chart , 
+     .bmi-calculator{
         width: 100%;
      }
-     .bmi-calculator{
-        margin-top: 30px;
-     }
-     form input {
-        width: 45%;
-     }
-     .sex{
-        width: 45%;
-     }
+     .sex , 
      .activity{
-        width: 91%;
+        width: 74%;
      }
      /* footer section */
      .footer-container{
@@ -61,7 +78,8 @@
     .banner-container{
         flex-direction: column;
     }
-    .banner-description ,.banner-image{
+    .banner-description ,
+    .banner-image{
         width: 100%;
     }
     .banner-image img{
@@ -82,7 +100,8 @@
 
      /* habits section */
 
-    .habits-content , .members-container{
+    .habits-content ,
+    .members-container{
         grid-template-columns: repeat(2,1fr);
     }
     .habit-image{
@@ -94,14 +113,13 @@
         grid-template-columns: repeat(2,1fr);
     }
     /* bmi section */
-    .bmi-content{
+    .bmi-content , 
+    .run-content{
         flex-direction: column;
     }
-    .bmi-calculator,.bmi-chart{
+    .bmi-calculator,
+    .bmi-chart{
         width: 100%;
-    }
-    .bmi-calculator{
-        margin-top: 30px;
     }
     .sex{
         width: 48%;
