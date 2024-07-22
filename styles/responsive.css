@@ -25,7 +25,8 @@
      }
      /* habit section */
      .habits-content , 
-     .members-container{
+     .members-container,
+     .recipe-items{
         grid-template-columns: repeat(1,1fr);
      }
      .habit-image{
@@ -35,22 +36,18 @@
      .run-container{
         margin-bottom: 40px;
      }
-
      .run-content{
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        justify-items: center;
      }
      .run-description,
      .run-image{
-         width: 90%;
+         width: 95%;
      }
-     .run-image{
+    .run-image{
         margin-top: 30px;
     }
-    .run-image img{
-        width: 90%;
+    .run-description h1 br{
+        display: none;
     }
      /* bmi section */
      .bmi-container{
@@ -63,7 +60,7 @@
      }
      .sex , 
      .activity{
-        width: 74%;
+        width: 83%;
      }
      /* footer section */
      .footer-container{
@@ -81,6 +78,9 @@
     .banner-description ,
     .banner-image{
         width: 100%;
+    }
+    .banner-description h1 br ,.run-description h1 br{
+        display: none;
     }
     .banner-image img{
         width: 80%;
@@ -101,11 +101,26 @@
      /* habits section */
 
     .habits-content ,
-    .members-container{
+    .members-container,
+    .recipe-items{
         grid-template-columns: repeat(2,1fr);
     }
     .habit-image{
         margin-top: 40px;
+    }
+    /* run section */
+    .run-container{
+        margin-bottom: 40px;
+     }
+     .run-content{
+        flex-direction: column;
+     }
+     .run-description,
+     .run-image{
+         width: 95%;
+     }
+    .run-image{
+        margin-top: 30px;
     }
 
     /* members container */
@@ -116,6 +131,7 @@
     .bmi-content , 
     .run-content{
         flex-direction: column;
+
     }
     .bmi-calculator,
     .bmi-chart{
